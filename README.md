@@ -21,3 +21,6 @@ The MS5611 sensor is a self-contained pressure and temperature sensor that is  f
 * Reset
 * Aquisition resolution management
 * Temperature and pressure measurement
+
+
+**NB:** This driver is intended to provide an implementation example of the sensor communication protocol, in order to be usable you have to implement a proper I2C layer for your target platform.

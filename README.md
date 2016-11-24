@@ -1,5 +1,5 @@
 # MS5611 Generic C Driver
-Arduino library for the [MS5611 sensor](http://www.te.com/usa-en/product-CAT-BLPS0037.html)
+Generic C driver for the [MS5611 sensor](http://www.te.com/usa-en/product-CAT-BLPS0036.html)
 
 ![ms5611](http://www.te.com/content/dam/te-com/catalog/part/CAT/BLP/S00/CAT-BLPS0036-t1.jpg/jcr:content/renditions/product-details.png)
 

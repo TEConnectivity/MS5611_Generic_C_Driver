@@ -237,7 +237,7 @@ enum ms5611_status ms5611_read_eeprom_coeff(uint8_t command, uint16_t *coeff)
 		
 	*coeff = (buffer[0] << 8) | buffer[1];
     
-    if (*coeff == 0)
+    if (command != MS5611_PROM_ADDRESS_READ_ADDRESS_0 && *coeff == 0)
         return ms5611_status_i2c_transfer_error;
 	
 	return ms5611_status_ok;	
